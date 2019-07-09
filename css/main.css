@@ -1,0 +1,28 @@
+body{
+  background-color: black;
+}
+
+.button {
+  background-color: red;
+  width: 150px;
+  height: 150px;
+}
+
+.board {
+  align-items: center;
+  display: grid;
+  grid-template: 1fr 1fr 1fr;
+  justify-content: center;
+  background-color: blue;
+}
+table {
+	border-collapse:collapse;
+}
+
+td {
+	background-color: black;
+	border: 3px solid white;
+	font-size:80px;
+	color:#ffffff;
+	border-radius: 10px 10px 10px 10px;
+}
