@@ -1,84 +1,29 @@
 body{
-  background-color: green;
-
-}
-.check {
-  background-image: "img/background.jpg";
+  background-image: url(../img/background.jpg);
+	background-size: cover;
   background-position: center;
-}
-h2 {
-
-  font-size: 45px;
-  color: white;
+  height: 400px;
   text-align: center;
+}
+
+h1 {
+  font-size: 45px;
+  color: black;
+  margin: 0 auto;
 }
 .button{
-  color: white;
-  background-color: blue;
+  color: black;
+  background-color: transparent;
+  border: 3px solid black;
 }
+
 
 .grid {
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 5% ;
+  grid-gap: 10px;
+  justify-content: center;
   height: 300px;
-}
-.top {
-  border: 2px solid blue;
-}
-.left {
-  border: 2px solid green;
-}
-.top{
-
-}
-.test{
-  color: white;
-  background-color: blue;
-}
-#content {
-  margin: 0 auto;
-  text-align: center;
-  width: 700px;
-}
-
-#nav {
-  margin: 50px 0px;
-}
-
-#title {
-  color: #F52F4F;
-  font-family: 'Oleo Script', cursive;
-  font-size: 50px;
-}
-
-#checking {
-  float: left;
-}
-
-#savings {
-  float: right;
-}
-
-.account {
-  background-color: #6C9A74;
-  border: 1px solid #295A33;
-  padding: 10px;
-}
-
-.balance {
-  background-color: #E3E3E3;
-  border: 1px solid #676767;
-  font-family: 'Ruluko', sans-serif;
-  font-size: 50px;
-  padding: 25px 0;
-}
-
-.clear {
-  clear: both;
-}
-
-.zero {
-  background-color: #F52F4F;
-  color: #FFF;
+  width: 300px;
 }
