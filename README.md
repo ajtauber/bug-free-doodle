@@ -3,12 +3,12 @@
 This is a simple game I build
 
 ## Features
+- Win detection works (console)
 
-Nothing yet.
 
 ## Bugs
+- Detecting the winner
 
-Entire Project.
 
 ## TODO
 - more colours

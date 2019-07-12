@@ -7,12 +7,18 @@ var user;
 var row, col;
 
 const game = {
-  moveCounter: 0,
-  currentPlayer: "X",
-// Used null instead of Strings "". NOTE: Truethy wasnt right from using strings compared to nul 
+    moveCounter: 0,
+    currentPlayer: "X",
+
+
+
+// Used null instead of Strings "". NOTE: Truethy wasnt right from using strings compared to nul
 board:  [ null, null, null, null, null, null, null, null, null],
 
-  checkWin: function(){
+
+
+
+    checkWin: function(){
     // Checks if theres a winner
     if(game.moveCounter < 4) {
       return false;
@@ -55,15 +61,12 @@ board:  [ null, null, null, null, null, null, null, null, null],
 //DOM MANIUPULATION SECTION
 
 $(document).ready(function(){
-  setTimeout(function(){
-    $('body').addClass('loaded');
-    $('h1').css('color','#222222')
-  }, 3000);
 
   // GAME TRACKING
   $('.button').click(function(){
     var row = $(this).index();
     var id = this.id;
+    // Parsing this variable into an integer value
     var boardIndex = parseInt( this.id );
 
   //START GAME
