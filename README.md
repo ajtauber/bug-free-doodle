@@ -16,3 +16,7 @@ This is a simple game I build
 
 ## Technologies
 - Made with jQuery
+
+
+## Live Demo
+- https://ajtauber.github.io/bug-free-doodle/
